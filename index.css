@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+#list-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 0.5rem;
+    padding: 0;
+}
+.groceries{
+    background-color: #FFFDF8;
+    color: #AC485A;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
+.groceries:hover{
+    background-color: #FFECC7;
+}
+
+#add-button:hover{
+    background-color: #432000;
+}
